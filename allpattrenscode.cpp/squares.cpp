@@ -23,6 +23,7 @@ int main()
            if (j < size) {
                cout << " ";
            }
+           
            j++;
        } while (j <= size);
 
