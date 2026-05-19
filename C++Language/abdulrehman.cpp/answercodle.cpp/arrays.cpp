@@ -12,15 +12,16 @@ int main()
     }
     int n;
     cin>>n;
-    int s[n] = {1 ,2 ,3 ,4 ,5} ;
+    int p[n] = {1 ,2 ,3 ,4 ,5} ;
     //s[5] = {1, 2, 3, 4, 5};
-    s[2] = 2;
+    p[2] = 2;
     cout<<s[2];
     for (int i = 0; i < n ;i++ ){
         cout << "Enter the " << i + 1 << "th index value: ";
-        cin>>s[i];
+        cin>>p[i];
     }
-    int s[n][n] ;
-    
+        for (int i = 0; i < n ;i++ ){
+        cout<<p[i]<<", ";
+    }
     return 0;
 }
